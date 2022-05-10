@@ -11,13 +11,6 @@
 - adicionar repositório remoto: git remote add [APELIDO DO REPOSITÓRIO (padrão: origin)] [link do repositório remoto]
 - listar repositórios remotos associados ao repositório local: git remote -v 
 
-## Extra: Configurar Git no primeiro uso
-
-- GIT config --global user.email "EMAIL"
-- GIT config --global user.name "NOME"
-
-
-
 ## GIT ADD
 - Git Add [nome de arquivo] [nome de pasta], ou Git Add . (todos os arquivos no diretório)
 - manda arquivos para STAGING AREA
@@ -35,3 +28,7 @@
 - Manda do LOCAL REPOSITORY para o REMOTE 
 - git push [APELIDO DO REPOSITÓRIO REMOTO (padrão: origin)] [BRANCH (padrão: main)]
 
+## Extra: Configurar Git no primeiro uso
+
+- GIT config --global user.email "EMAIL"
+- GIT config --global user.name "NOME"
